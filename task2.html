@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <header>
+        <nav>
+            <a href="#findproject">О проекте</a>
+            <a href="#finddirections">Направления</a>
+            <a href="#findgallery">Галерея</a>
+            <a href="#findplanning">Планирование</a>
+            <a href="#findcontacts">Контакты</a>
+        </nav>
+    </header> 
+    <main>
+        <section>
+            <h2 id="findproject">О проекте</h2>
+            <p>Добро пожаловать на сайт "Путешествия по России"! Здесь вы найдете информацию о самых интересных местах нашей страны. </p>
+            <p>Россия - самая большая страна в мире, и на ее территории множество уникальных природных и культурных достопримечательностей.</p>
+        </section>
+        <section>
+            <h2 id="finddirections">Популярные направления</h2>
+            <h3>Топ-5 направлений для путешествий по России:</h3>
+            <ol>
+                <li>Озеро Байкал</li>
+                <li>Камчатка</li>
+                <li>Золотое кольцо России</li>
+                <li>Алтай</li>
+                <li>Калининградская область</li>
+            </ol>
+            <h3>Сравнение направлений</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <td>Направление</td>
+                        <td>Лучшее время для посещения</td>
+                        <td>Средняя стоимость поездки</td>
+                    </tr>
+                </thead>
+                <tr>
+                    <td>Озеро Байкал</td>
+                    <td>Июль-август</td>
+                    <td>30 000 руб.</td>
+                </tr>
+                <tr>
+                    <td>Камчатка</td>
+                    <td>Июль-сентябрь</td>
+                    <td>70 000 руб.</td>
+                </tr>
+                 <tr>
+                    <td>Золотое кольцо России</td>
+                    <td>Май-сентябрь</td>
+                    <td>20 000 руб.</td>
+                </tr>
+                 <tr>
+                    <td>Алтай</td>
+                    <td>Июнь-август</td>
+                    <td>25 000 руб.</td>
+                </tr>
+            </table>
+        </section>
+        <section>
+            <h2 id="findgallery">Галерея</h2>
+            <h3>Озеро Байкал</h3>
+            <img src="https://avatars.dzeninfra.ru/get-zen_doc/271828/pub_68efa2e129b7462ce75fa087_68efa9a275682d136b9fe55e/scale_1200">
+            <p>Озеро Байкал - самое глубокое озеро в мире</p>
+            <h3>Камчатка</h3>
+            <img src="https://21mm.ru/upload/iblock/6cf/107hfnvvambnbj0x8pak8euhkk9n8s8x.jpg">
+            <p>Камчатка - край вулканов и гейзеров</p>
+            <h3>Алтай</h3>
+            <img src="https://thumb.tildacdn.com/tild3734-6335-4235-a336-666264623965/-/format/webp/5bc994d285600a4e360c.jpeg">
+            <p>Алтай - горный край с уникальной природой</p>
+            <p>Больше фотографий вы можете найти на наших ресурсах:</p>
+            <ul>
+                <li><a href="https://wikiway.com/russia/ozero-baykal/photo/" target="_blank">Фото Байкала</a></li>
+                <li><a href="https://wikiway.com/russia/kamchatka/photo/" target="_blank">Фото Камчатки</a></li>
+                <li><a href="https://wikiway.com/russia/altayskie-gory/photo/" target="_blank">Фото Алтая</a></li>
+            </ul>
+        </section>
+        <section>
+            <h2 id="findplanning">Планирование путешествия</h2>
+            <form action="#" method="post">
+         <label for="user_name">Ваше имя:</label><br>
+    <input type="text" name="name" id="user_name" placeholder="Введите ваше имя">
+    <br>
+    <label for="user_mail">Email:</label><br>
+    <input type="text" name="mail" id="user_mail" placeholder="user@example.com">
+    <br>
+    <label for="user_direction">Выберите направление:</label><br>
+     <select type="text" name="direction" id="user_direction">
+       <option value="ds">--Выберите направление--</option>
+        <option value="ob">Озеро Байкал</option>
+        <option value="kh">Камчатка</option>
+         <option value="at">Алтай</option>
+         
+     </select><br>
+     <label for="user_type">Тип путешествия:</label><br>
+     <input type="radio" name="type" id="user_type" value="individual">Индивидуальное<br>
+<input type="radio" name="type" id="user_type" value="group">Групповое
+<br>
+<label for="user_addservices">Дополнительные услуги:</label><br>
+<input type="checkbox" name="guide">Гид<br>
+<input type="checkbox" name="transfer">Трансфер<br>
+<input type="checkbox" name="insurance">Страховка<br>
+ <label for="user_message">Комментарии и пожелания:</label><br>
+     <textarea name="message" id="user_message" rows="5" cols="30">Напишите ваше сообщение</textarea><br>
+     <input type="submit" value="Отправить заявку">
+     <button>Очистить форму</button>
+        </section>
+    </main>
+    <section>
+        <h2 id="findcontacts">Контакты</h2>
+        <p>Свяжитесь с нами для получения информации:</p>
+        <ul>
+            <li>Телефон:<a href="tel:+79991234567">+7-999-123-45-67</a></li>
+            <li>Email:<a href="mailto:info@travel-russia.ru">info@travel-russia.ru</a></li>
+            <li>Адрес: Москва,ул.Путешественников, д.10</li>
+        </ul>
+    </section>
+    <footer>
+   <p>© 2023 Путешествия по России. Все права защищены. </p>
+    </footer>
+</body>
+</html>

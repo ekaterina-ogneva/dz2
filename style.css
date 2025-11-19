@@ -1,0 +1,80 @@
+body {
+    background-color: rgb(219, 238, 239);
+     font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+}
+header {
+     background-color: #153a71;
+      padding: 12px 20px;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+header nav a {
+      color: white;
+      margin-right: 10px;
+      padding: 6px 6px;
+    
+    }
+
+    main {
+    
+      margin: 20px auto;
+      padding: 0 20px;
+    }
+
+    section {
+      background: white;
+      padding: 20px;
+      margin-bottom: 25px;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    }
+
+     table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 12px;
+      border: 1px solid #ddd;
+    }
+    table td {
+      padding: 12px;
+      text-align: left;
+      border: 1px solid #ddd;
+    }
+
+    table th {
+      background-color: #f5f5f5;
+      font-weight: 600;
+    }
+    option {
+        font-weight: 600;
+    }
+    form label {
+  font-weight: 600;}
+  form input,
+form select,
+form textarea,  {
+  font-weight: 600;}
+form input[type="submit"], button {
+     background-color: #2c5aa0;
+      color: white;   
+       border: none; 
+        padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;}
+  
+  
+footer { background-color: rgb(33, 33, 104);
+    color: white;
+    text-align: center;
+     padding: 15px 20px;
+    font-size: 14px;
+            margin-top: 20px;
+           
+}
+h2 {
+    color: rgb(7, 7, 91);
+}
+h3 {
+     color: rgb(7, 7, 91);
+}
